@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-size: 1rem;    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 55px;
+}
+
+header {
+    text-align: center
+}
+
+h1 {
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 2.8rem;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 10px 10px 25px 0px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+}
+
+.container {
+    background-color: #262744;
+    opacity: 85%;
+    width: 88%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px 20px 20px 20px;
+}
+
+#user-data {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+label {
+    margin: 10px 0;
+}
+
+#user-data input{
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 1.18rem;
+}
+
+input::placeholder{
+    font-size: 1.1rem;
+}
+
+#job-status { 
+    padding-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1.18rem;
+    color: #776E78;
+    padding: 15px 6px;
+}
+
+#recommended-status {
+    padding-bottom: 10px;
+}
+
+#radio-input {
+    margin-right: 10px;
+}
+
+#feature-status {
+    padding-bottom: 20px;
+}  
+
+#courses-status {
+    padding-bottom: 8px;
+}
+
+#improvement {
+    margin: 10px 10px 0px 0px;
+}
+
+#comments {
+    padding-bottom: 10px;
+}
+
+textarea{
+    margin-top:10px;
+    width: 100%;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 1.18rem;
+}
+
+#submit-button {
+    width: 100%;
+    padding: 15px;
+    background: #37af65;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border-style: none;
+  }
+
+@media (min-width: 768px) {
+    body {
+        padding-bottom: 70px;
+    }
+
+    h1 {
+        margin-top: 60px;
+    }
+
+    .container {
+        width: 70%;
+        font-size: 1.5rem;
+        padding: 40px 40px;
+    }
+
+    #user-data input {
+        padding: 10px 10px;
+    }
+
+    input::placeholder{
+        font-size: 1rem;
+    }
+
+    select{
+        padding: 10px 7px;
+    }
+
+    #courses-status {
+        padding-bottom: 20px;
+    }
+    
+    #comments {
+        padding-bottom: 20px;
+    }
+
+    textarea {
+        font-size: 1rem;
+    }    
+}
